@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* index banner css code by chenxuan */
+
+#index_banner_bychenxuan {
+	border:#666666 solid 1px;
+	border-radius:8px;
+	width:960px;
+	height:298px;
+	background-color:#000;
+	font-family:"微软雅黑";
+}
+#showStage{
+	margin:15px 0 0 14px;
+	width:930px;
+	height:268px;
+	float:left;
+	background-color:#FFF;
+	overflow:hidden;
+}
+#showStage img{
+	float:left;
+	width:930px;
+	height:268px;
+	cursor:pointer;
+}

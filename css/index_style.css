@@ -1,0 +1,390 @@
+* {
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	border:none 0px;
+}
+ul, li {
+	list-style:none;
+}
+.sky_mz_body, .sky_mz_top{
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+	background:url(../img/index_mz_bg.jpg) fixed;
+}
+.sky_mz_box {
+	/*width:1440px;*/
+	height:100%;
+	margin:0px auto;
+}
+.sky_mz_top {
+	width:1440px;
+	height:120px;
+	position:fixed !important;
+	z-index:100;
+	left:0px;
+	top:0px;
+}
+.sky_mz_top div {
+	float:left;
+	display:inline;
+}
+.sky_mz_top_left {
+	width:630px;
+	height:100%;
+}
+.sky_mz_title_box {
+	width:283px;
+	height:38px;
+	overflow:hidden;
+	margin:20px 0px 0px 90px;
+}
+.sky_mz_ico, .sky_mz_b_txt_o, .sky_mz_b_txt_o_bj, .sky_mz_user_nav_box, .sky_mz_f_logo, .sky_mz_f_msg, .sky_mz_f_msg li div, .sky_mz_user_webmark, .sky_mz_user_no, .sky_mz_user_close, .sky_mz_user_addmark_close {
+	background:url(../img/index_mz_ico.png);
+	background-repeat:no-repeat;
+}
+.sky_mz_title {
+	width:100%;
+	height:100%;
+	background-position:0px -138px;
+	margin:60px 0px 5px 0px;
+}
+.sky_mz_t_left_nav {
+	width:100%;
+	height:53px;
+	background-position:0px 0px;
+}
+.sky_mz_top_logo {
+	width:142px;
+	height:80px;
+	margin:40px 0px 0px -5px;
+	background-position:-641px -26px;
+}
+.sky_mz_top_right {
+	margin-left:-6px;
+}
+.sky_mz_t_right_nav {
+	width:500px;
+	height:50px;
+	margin:10px 0px 0px 40px;
+	overflow:hidden;
+}
+.sky_mz_t_right_nav a {
+	color:#000;
+}
+.sky_mz_t_right_nav ul{
+	float:left;
+	margin-top:20px;}
+.sky_mz_t_right_nav li {
+	width:70px;
+	height:25px;
+	text-align:center;
+	cursor:pointer;
+	font:14px/25px '微软雅黑', 'Microsoft Yahei', 'Simsun';
+}
+.sky_mz_nav_bottom {
+	background-position:0px -70px;
+}
+.sky_mz_centre {
+	width:960px;
+	height:700px;
+	margin:0px auto;
+}
+.sky_mz_centre div {
+	float:left;
+}
+.sky_mz_banner_box {
+	width:100%;
+	height:300px;
+	border-width:15px 13px 15px 13px;
+	border-style:solid;
+	border-color:#000;
+	background-color:#000;
+	-moz-border-radius:11px;
+	-khtml-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	overflow:hidden;
+}
+.sky_mz_banner {
+	position:absolute;
+	overflow:hidden;
+}
+.sky_mz_banner li {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	float:left;
+}
+.sky_mz_banner_all {
+	width:100%;
+	height:450px;
+}
+.sky_mz_b_txt_box {
+	width:100%;
+	height:40px;
+	margin-top:10px;
+}
+.sky_mz_b_txt_box ul {
+	width:100%;
+	height:100%;
+	position:relative;
+	z-index:10;
+}
+.sky_mz_b_txt_box ul li {
+	height:100%;
+	float:left;
+}
+.sky_mz_b_txt_box li a div {
+	width:100%;
+	height:20px;
+	text-align:center;
+	font:14px/20px '微软雅黑', 'Microsoft Yahei', 'Simsun';
+}
+.sky_mz_b_txt_o_bj {
+	width:22px;
+	height:22px;
+	background-position:-684px -130px;
+	margin-top:-6px;
+}
+.sky_mz_b_txt_go_bj {
+	width:100%;
+	height:5px;
+	margin-top:-18px;
+	background-color:#000;
+	position:relative;
+	z-index:5;
+}
+.sky_mz_b_txt_go {
+	width:0px;
+	margin-top:-18px;
+	background-color:#09F;
+	z-index:8;
+}
+.sky_mz_b_txt_o {
+	margin:-6px 0px 0px -22px;
+	display:none;
+	background-position:-653px -130px;
+}
+.sky_mz_user_nav_box {
+	width:551px;
+	height:216px;
+	background-position:0px -200px;
+}
+.sky_mz_user_off {
+	width:480px;
+	height:85px;
+	margin:38px 0px 0px 70px;
+}
+.sky_mz_user_corporation {
+	width:480px;
+	height:40px;
+	margin:32px 0px 0px 70px;
+}
+.sky_mz_user_off a, .sky_mz_user_corporation a {
+    height:20px;
+    max-height:20px;
+	display:inline;
+	color:#000;
+	float:left;
+	font:12px/20px '微软雅黑', 'Microsoft Yahei', 'Simsun';
+	margin:2px 0px;
+	padding:0px 5px;
+	white-space:nowarp;
+}
+.sky_mz_user_off a:hover, .sky_mz_user_corporation a:hover {
+	color:#fff;
+	border-width:0px;
+	border-style:solid;
+	border-color:#4ecdf1;
+	background-color:#4ecdf1;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.sky_mz_user_box {
+	width:100%;
+	height:250px;
+}
+.sky_mz_footer {
+	width:100%;
+	height:100px;
+	background-color:#000;
+	opacity:0.7;
+}
+.sky_mz_footer div {
+	float:left;
+}
+.sky_mz_f_logo {
+	width:137px;
+	height:80px;
+	background-position:-584px -193px;
+	/*margin:10px 0px 0px 250px;*/
+	margin-top:10px;
+}
+.sky_mz_about {
+	width:200px;
+	height:80px;
+	margin:15px 0px 0px 25px;
+}
+.sky_mz_about li {
+	width:100%;
+	height:25px;
+	font:14px/25px '微软雅黑', 'Microsoft Yahei', 'Simsun';
+	color:#36a3ff;
+}
+.sky_mz_about li a {
+	color:#fff;
+	padding:0px 5px;
+}
+.sky_mz_f_msg {
+	width:300px;
+	height:80px;
+	background-position:-719px -193px;
+	margin:10px 0px 0px 300px;
+}
+.sky_mz_f_msg li {
+	width:100%;
+	height:25px;
+	font:14px/25px '微软雅黑', 'Microsoft Yahei', 'Simsun';
+	color:#fff;
+	padding-left:20px;
+}
+.sky_mz_f_msg li a {
+	float:left;
+}
+.sky_mz_f_msg li div {
+	width:81px;
+	height:23px;
+	margin-left:5px;
+}
+.sky_mz_weibo{
+	float:left;}
+.sky_mz_weibo_a{
+	color:#09F;}
+.sky_mz_user_webmark{
+	width:380px;
+	height:216px;
+	margin-left:25px;
+	background-position:0px -417px;}
+.sky_mz_user_no{
+	width:296px;
+	height:162px;
+	margin:30px 0px 0px 60px;
+	background-position:-405px -440px;}
+.sky_mz_user_login{
+	width:55px;
+	height:25px;
+	margin:47px 0px 0px 243px;}
+.sky_mz_user_yes{
+	width:330px;
+	height:180px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	margin:20px 0px 0px 48px;}
+.sky_mz_user_yes li{
+	margin:2px 3px;
+	float:left;
+	text-align:left;
+	border-width:2px;
+	border-style:solid;
+	border-color:#4ecdf1;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;}
+.sky_mz_user_yes li a{
+	float:left;
+	padding:3px 5px 3px 15px;
+	font:14px/28px '微软雅黑', 'Microsoft Yahei', 'Simsun';
+	color:#000;}
+.sky_mz_user_close{
+	width:10px;
+	height:10px;
+	margin:3px 2px 0px 5px;
+	visibility:hidden;
+	cursor:pointer;
+	background-position:-725px -134px;}
+.sky_mz_user_yes p{
+	text-align:center;
+	font:14px/22px '微软雅黑', 'Microsoft Yahei', 'Simsun';}
+.sky_mz_user_noadd{
+	width:50px;
+	height:50px;
+	margin:50px 0px 0px 120px;
+	text-align:center;
+	color:#4ecdf1;
+	font:50px/40px '微软雅黑', 'Microsoft Yahei', 'Simsun';
+	border-width:2px;
+	border-style:dashed;
+	border-color:#4ecdf1;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	cursor:pointer;}
+.sky_mz_user_addmark{
+	width:380px;
+	height:216px;
+	display:none;
+	position:absolute;
+	z-index:2;}
+.sky_mz_user_mark_bj{
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.6;}
+.sky_mz_user_mark_add{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:3;}
+.sky_mz_user_mark_add ul{
+	margin:12px 0px 0px 60px;}
+.sky_mz_user_mark_add li{
+	width:100%;
+	height:50px;
+	color:#fff;
+	font:16px/50px '微软雅黑', 'Microsoft Yahei', 'Simsun';}
+.sky_mz_user_mark_add li input{
+	width:180px;
+	height:25px;
+	outline:none;
+	padding:0px 5px;
+	font:14px/25px '微软雅黑', 'Microsoft Yahei', 'Simsun';}
+.sky_mz_user_mark_add_sub{
+	width:80px;
+	height:40px;
+	margin:10px 150px;
+	background-color:#09F;
+	text-align:center;
+	cursor:pointer;
+	font:16px/40px '微软雅黑', 'Microsoft Yahei', 'Simsun';}
+.sky_mz_user_yes_noadd{
+	width:100%;
+	height:100%;}
+.sky_mz_user_addmark_close{
+	width:15px;
+	height:15px;
+	margin:5px 360px;
+	cursor:pointer;
+	background-position:-725px -146px;}
+.sky_mz_user_mark_add2{
+	width:70px;
+	height:35px;
+	text-align:center;
+	cursor:pointer;
+	color:#4ecdf1;
+	font:40px/25px '微软雅黑', 'Microsoft Yahei', 'Simsun';}
+.sky_mz_user_mark_add p{
+	width:100%;
+	text-align:center;
+	color:#fff;
+	font:14px/20px '微软雅黑', 'Microsoft Yahei', 'Simsun';}
+.sky_mz_user_ico{
+	display:none;
+	width:48px;
+	height:48px;
+	margin:6px 0px 0px 60px;}
